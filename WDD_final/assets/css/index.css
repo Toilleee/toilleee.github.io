@@ -72,7 +72,7 @@ header {
   white-space: nowrap;
   margin: 350px auto;
   letter-spacing: .15em;
-  animation: type 2s steps(16), blink-caret .5s step-end infinite;
+  animation: type 3s steps(41), blink-caret .5s step-end infinite;
   margin-left: 100px
 }
 
@@ -82,7 +82,7 @@ header {
 
 @keyframes type {
   0% { width: 0ch;}
-  100% { width:16ch; }
+  100% { width:41ch; }
 }
 
 @keyframes blink-caret {
