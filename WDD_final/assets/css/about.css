@@ -1,0 +1,128 @@
+html, body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-image: url(../images/About_background.jpg);
+
+}
+header {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.sidebar {
+  display:flex;
+  flex-direction:row;
+}
+
+.sidebar-item {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-item {
+    padding: 15px;
+    color: #000000;
+    border: 1px solid #FFFFFF;
+    transition: 0.5s;
+}
+
+.sidebar-item:hover {
+  color: #000000;
+  opacity: 0.25;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar a {
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.sidebar a .sidebar-item {
+    margin-left: 3px;
+}
+
+
+#carousel,
+.carousel-image {
+  width: 700px;
+  height: 500px;
+  margin-top: 20px;
+}
+
+#carousel {
+  position: relative;
+  overflow: hidden;
+  top: 20px;
+  left: 325px;
+}
+
+
+#carousel-image-row {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 10px;
+  transition: 0.5s all;
+}
+
+.carousel-image img {
+  height: 100%;
+  width: auto;
+}
+
+
+.hidden {
+  visibility: hidden;
+}
+
+
+#carousel-controls {
+  margin-top: 25px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+#button-next,
+#button-previous {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.Container {
+}
+.About {
+  font-family: 'Big Shoulders Display', sans-serif;
+  width: 1000px; 
+  margin-left: 220px;
+  font-size: 25px;
+  line-height: 2;
+  color: white;
+}
+
+.Title {
+  font-family: 'Big Shoulders Display', sans-serif;
+  margin-top: 85px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 2;
+  color: white;
+}
+
+
+

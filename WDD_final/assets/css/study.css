@@ -1,0 +1,92 @@
+html, body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+header {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.sidebar {
+  display:flex;
+  flex-direction:row;
+}
+
+.sidebar-item {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-item {
+    padding: 15px;
+    color: #000000;
+    border: 1px solid #FFFFFF;
+    transition: 0.5s;
+}
+
+.sidebar-item:hover {
+  color: #000000;
+  opacity: 0.25;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar a {
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.sidebar a .sidebar-item {
+    margin-left: 3px;
+}
+
+.Sermon1 {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    color: brown;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.References {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 750;
+    line-height: 1;
+    color: black;
+
+}
+
+.Sermon {
+    font-family: 'Questrial', sans-serif;
+    width:1000px;
+    font-size:  20px; 
+    margin-left: 200px;
+    line-height: 2.3;
+    font-weight: 450;
+    color: black;
+}
+
+#excerpt {
+    font-family: 'Big Shoulders Display', sans-serif;
+    width:800px;
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.insert_scripture {
+  margin-left: 80px;
+  width:900px;
+}
+

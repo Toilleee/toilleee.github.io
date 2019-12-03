@@ -1,0 +1,94 @@
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 1500px 800px;
+}
+
+header {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.sidebar {
+  display:flex;
+  flex-direction:row;
+}
+
+.sidebar-item {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.sidebar-item {
+  padding: 15px;
+  color: #000000;
+  border: 0px solid #FFFFFF
+  transition: 0.5s;
+}
+
+
+.sidebar-item:hover {
+  color: #000000;
+  opacity: 0.25;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.sidebar a {
+  color: #000000;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+.sidebar a .sidebar-item {
+  margin-left: 3px;
+}
+
+#Text {
+  display: flex;
+}
+
+#Center {
+  margin: auto;
+}
+
+#Welcome {
+  font-size: 40px;
+  display: flex;
+  overflow: hidden;
+  font-family: monospace;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  margin: 350px auto;
+  letter-spacing: .15em;
+  animation: type 2s steps(16), blink-caret .5s step-end infinite;
+  margin-left: 100px
+}
+
+#Welcome {
+  display: inline-flex;
+}
+
+@keyframes type {
+  0% { width: 0ch;}
+  100% { width:16ch; }
+}
+
+@keyframes blink-caret {
+  from, to {border-color: transparent}
+  50% {border-color: black;}
+}
+
+
+
